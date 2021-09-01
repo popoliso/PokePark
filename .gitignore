@@ -1,0 +1,27 @@
+# Ignore .idea and temporary README.md files
+/.idea
+README.md.*
+
+# Ignore content of directories with user specific data, keep directories itself
+/access/**
+/custom/**
+/ddos/**
+!/access/.gitkeep
+!/custom/.gitkeep
+!/ddos/.gitkeep
+
+# Ignore config directory except for specific files
+/config/**
+!/config/*.json.example
+!/config/defaults-*.json
+
+# Ignore several icon directories + their content
+# Ignoring directories itself allows to replace them with symlinks
+/images/gyms/**
+/images/pokemon
+/images/pokemon/**
+/images/pokemon_PokeMiners
+/images/pokemon_PokeMiners/**
+/images/pokemon_ZeChrales
+/images/pokemon_ZeChrales/**
+!/images/gyms/.gitkeep

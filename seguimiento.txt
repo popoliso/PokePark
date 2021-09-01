@@ -1,0 +1,12 @@
+05-24
+Inserto en update_userdb.php
+campos para grabar  lenguaje, fecha alta, id_grupo (0), $menu_raid = (1)
+
+ańado raiz logic include n_raid_get_gyms_list.php
+añado en logic/new/n_raid_get_gyms_list.php
+añado en command /s
+
+buscar get_gyms_list_name
+
+
+ver get_gym_raid
